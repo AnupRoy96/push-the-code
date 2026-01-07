@@ -1,0 +1,91 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1350px;
+    margin: auto;
+}
+header{
+    background-color:chocolate ;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1350px;
+    align-items: center;
+    margin: auto;
+    padding: 10px 0;
+
+}
+.link-parent{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    
+    
+}
+.link-parent a{
+    text-decoration: none;
+
+}
+.my-btn{
+    border-radius: 8px;
+    padding: 5px;
+    font-weight:600 ;
+    border: 2px solid #006a50;
+    color: #006a50;
+    background-color: white;
+
+}
+.my-btn 2{
+    border-radius:8px;
+    font-weight:600;
+    background-color: rgba(0,106,80,1);
+    color: white;
+    padding: 12px 15px;
+}
+.hero-parent{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    background: rgba(198,228,214,1);
+    border-radius: 10px;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+
+    
+
+
+}
+.hero-parent h2{
+    color:rgba(14,14,14,0.5) ;
+    font-size: 24px;
+    font-weight: 500px;
+
+}
+.hero-parent p{
+    color:black) ;
+    font-size: 30px;
+    font-weight: 200px;
+    margin: 10px 0;
+     
+
+
+    
+}
+.img{
+    width: 300px;
+    height: 300px;
+    padding: 20px 60px;
+    
+   
+}
+.hero-parent .my-btn{
+    background-color: rgba(0,106,80,1);
+    color: white;
+    padding: 12px 15px;
+}
+
